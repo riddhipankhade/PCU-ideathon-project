@@ -1,0 +1,155 @@
+:root{
+    --pink: rgb(160, 126, 156);
+    --dblue: rgb(39, 76, 119);
+    --blue: #6096ba;
+    --lblue: rgb(163, 206, 241);
+    --green: #d4e4bc;
+}
+
+*{
+    padding: 0.15%;
+}
+
+
+
+html{
+    border: solid 5px;
+    border-style: double;
+    padding: 2%;
+    display: flex;
+    /* background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center; */
+}
+
+li{
+  margin: 0% 3%;  
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 30px;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+    border: solid 2px rgba(160, 126, 156, 50%);
+    border-radius: 5%;
+    background-color: rgba(160, 126, 156, 30%);
+}
+
+.head{
+    font-family: 'Segoe UI';
+    text-shadow: 0rem 0rem 1rem var(--blue);
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(163, 206, 241, 80%);
+    align-items: center;
+    margin: 5rem 0;
+    padding: 3rem;
+    min-width: auto;
+    min-height: 10rem;
+    text-align: center;
+    position: relative;
+    border-radius: 1rem;
+    border: solid var(--pink)
+}
+
+.Home .Heading{
+    bottom: 3rem;
+    font-size: 4rem;
+    font-family:'Lucida Grande';
+    text-shadow: 0 0.6rem 1rem var(--dblue), -0.8rem 0.5rem 1rem var(--blue), 0.8rem 0.5rem 1rem var(--blue);
+    /*, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
+    position: relative;
+    justify-content: center;
+    color: var(--dblue)
+}
+
+.Home .SubTitle{
+    position: relative;
+    background-color: rgba(255, 255, 255, 30%);
+    border-radius: 0.4rem;
+    min-height: 2rem;
+    min-width: 40rem;
+    align-items: center;
+    font-family: 'Lucida Sans';
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0.4rem 1rem var(--dblue);
+}
+
+.Home .tagline{
+    position:relative;
+    top: 2rem;
+    min-width: 60rem;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 20%);
+    font-family: "Lucida Grande";
+    justify-content: center;
+    background-color: rgba(160, 126, 156, 25%);
+
+}
+
+.AboutUs{
+    padding: 0.3rem;
+    font-family: 'Times New Roman';
+}
+
+.AboutUs .intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutUs .intro > p{
+    background-color: rgb(163, 206, 241);
+    border: solid var(--dblue) 0.2rem;
+    box-shadow: 0 0.3rem 0.4rem var(--blue), -0.3rem 0.3rem 0.4rem var(--blue), 0.3rem 0.3rem 0.4rem var(--blue);
+    border-radius: 0.5rem;
+    justify-items:center;
+    align-items: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+.ProbS .stats{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 0;
+}
+
+.ProbS .stats .stat1{
+    background-color: green;
+    border: solid 1px black;
+}
+
+.ProbS .stats .stat2{
+    background-color: green;
+    border: solid 1px black;
+    
+}
+
+.ProbS .stats .stat3{
+    background-color: green;
+    border: solid 1px black;
+    
+}
+
+.ProbS .stats .stat4{
+    background-color: green;
+    border: solid 1px black;
+
+}
+
+.statement{
+    font-weight: normal;
+}
